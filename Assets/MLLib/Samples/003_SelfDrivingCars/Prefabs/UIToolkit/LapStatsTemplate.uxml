@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: space-between;">
+        <ui:Label text="Lap" display-tooltip-when-elided="true" name="lap" style="flex-direction: row;" />
+        <ui:Label text="Collisions" display-tooltip-when-elided="true" name="collisions" style="flex-direction: row;" />
+        <ui:TextField picking-mode="Ignore" value="00:00:00" text="00:00:00" readonly="true" name="time" />
+    </ui:VisualElement>
+</ui:UXML>

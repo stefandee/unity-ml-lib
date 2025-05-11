@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Car Name" display-tooltip-when-elided="true" name="carName" style="-unity-text-align: middle-center; font-size: 16px; -unity-font-style: normal;" />
+    <ui:Foldout text="Basic" name="basicFoldout">
+        <ui:VisualElement style="flex-direction: row; justify-content: space-between; align-items: center;">
+            <ui:Label text="Velocity" display-tooltip-when-elided="true" style="flex-direction: row; align-items: auto;" />
+            <ui:TextField picking-mode="Ignore" value="999.99" name="velocity" readonly="true" style="-unity-text-align: upper-left; justify-content: center;" />
+            <ui:DropdownField index="0" choices="MPS,KMH,MPH" name="velocityUnit" style="justify-content: flex-end; flex-direction: row; align-items: center;" />
+        </ui:VisualElement>
+        <ui:Label text="Next Waypoint:" display-tooltip-when-elided="true" name="nextwp" enable-rich-text="false" />
+        <ui:Button text="Follow&#x9;" name="btnCameraFollow" enabled="false" />
+    </ui:Foldout>
+    <ui:Foldout text="Laps" name="lapsFoldout">
+        <ui:VisualElement name="currentLapContainer">
+            <ui:TextField picking-mode="Ignore" label="Current Lap" value="00:00:00" name="currentLap" readonly="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="averageLapContainer">
+            <ui:TextField picking-mode="Ignore" label="Average Lap" value="00:00:00" name="averageLap" readonly="true" />
+        </ui:VisualElement>
+        <ui:ListView focusable="true" name="laplist" />
+    </ui:Foldout>
+    <ui:Foldout text="Neural Network" name="nnFoldout" />
+</ui:UXML>

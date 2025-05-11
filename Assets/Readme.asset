@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 913488290c2e6c4438e75a70d9231150, type: 3}
+  title: Unity Machine Learning Library
+  sections:
+  - heading: What is it?
+    text: This project aims to create a machine learning library that can be used
+      for game development AI tasks.
+    linkText: 
+    url: 
+  - heading: 1. Multi Armed Bandit
+    text: This sample simulates the multi armed bandit problem.
+    linkText: Open the scene
+    url: Assets/MLLib/Samples/001_MultiArmedBandit/Scenes/MultiArmedBandit.unity
+  - heading: 2. Q Learning 1D
+    text: Q learning algorithm to find a path in a 1D grid.
+    linkText: Open the scene
+    url: Assets/MLLib/Samples/002_QLearning/Scenes/QLearning1DGridWorld.unity
+  - heading: 3. Q Learning 2D
+    text: Q learning algorithm to find a path in a 2D grid.
+    linkText: Open the scene
+    url: Assets/MLLib/Samples/002_QLearning/Scenes/QLearning2DGridWorld.unity
+  - heading: 4. Self Driving Cars (Reinforced Learning)
+    text: Self driving cars using feed forward neural network and reinforced learning.
+    linkText: Open the scene
+    url: Assets/MLLib/Samples/003_SelfDrivingCars/Scenes/RLTrackLearning.unity
+  loadedLayout: 1

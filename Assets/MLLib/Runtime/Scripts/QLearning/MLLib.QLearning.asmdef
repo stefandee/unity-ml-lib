@@ -1,0 +1,16 @@
+{
+    "name": "PironGames.MLLib.QLearning",
+    "rootNamespace": "",
+    "references": [
+        "GUID:263f26c35a38b4e4fa89cd781ea3ff7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
